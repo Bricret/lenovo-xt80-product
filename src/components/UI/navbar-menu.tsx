@@ -25,10 +25,10 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative hover:scale-110 hover:bg-[#abd503] transition rounded-lg px-1.5">
+    <div onMouseEnter={() => setActive(item)} className="relative hover:bg-[#abd503] hover:opacity-[0.9] rounded-lg px-2">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] font-bold text-lg"
+        className="cursor-pointer text-black font-bold text-lg hover:scale-110 transition"
       >
         {item}
       </motion.p>
@@ -43,7 +43,7 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
+                className="bg-black/45 backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
               >
                 <motion.div
                   layout // layout ensures smooth animation
@@ -95,7 +95,7 @@ export const ProductItem = ({
         width={140}
         height={70}
         alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
+        className="flex-shrink-0 rounded-md shadow-2xl w-auto h-auto"
       />
       <div>
         <h4 className="text-xl font-bold mb-1 text-white ">

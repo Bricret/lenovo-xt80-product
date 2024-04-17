@@ -27,14 +27,14 @@ export default function Headers() {
     return (
         <>
         <motion.header
-          className={`transition-all duration-500 ${isScrolled ? 'opacity-0' : 'opacity-100'}`}
+          className={`transition-all duration-500 ${isScrolled ? 'hidden' : 'block'} p-4 shadow-lg sticky top-0`}
           initial={{ opacity: 1 }}
           animate={{ opacity: isScrolled ? 0 : 1 }}
         >
           <Header />
         </motion.header>
         <motion.header
-          className={`transition-all duration-500 ${isScrolled ? 'opacity-100' : 'opacity-0'}`}
+          className={`transition-all duration-500 ${isScrolled ? 'block' : 'hidden'} px-4 py-3 bg-black/85 shadow-xl sticky top-0`}
           initial={{ opacity: 0 }}
           animate={{ opacity: isScrolled ? 1 : 0 }}
         >
