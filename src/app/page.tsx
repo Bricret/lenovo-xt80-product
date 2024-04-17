@@ -6,7 +6,6 @@ import ProductPresentation from './components/ProductPresentation';
 export default function Home() {
   return (
     <>
-      {/* <HeaderV2 /> */}
       <Headers />
       <ProductPresentation />
     </>
