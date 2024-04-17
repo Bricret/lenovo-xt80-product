@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <header className='p-4'>
+        <header className='p-4 shadow-lg'>
             <nav className='flex justify-between items-center'>
                 <picture>
                 <Image 
@@ -15,7 +15,7 @@ export default function Header() {
                     priority
                 />
                 </picture>
-                <section className="relative">
+                <section className="hidden md:block">
                     <NavbarSection />
                 </section>
                 <section className='flex gap-6'>
