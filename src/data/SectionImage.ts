@@ -1,3 +1,4 @@
+import { InformationAboutProductProps } from "@/interfaces/ImagesProps";
 import { ImageProps } from "next/image";
 
 export const ImagesPresentation: ImageProps[] = [
@@ -25,4 +26,22 @@ export const ImagesPresentation: ImageProps[] = [
         src: '/ProductMainImage/image6.webp',
         alt: 'Ilustration of product 6'
     },
+]
+
+export const InformationAboutProduct: InformationAboutProductProps[] = [
+    {
+        title: "Despacho a domicilio",
+        description: "Contamos con entrega a domicilio",
+        src: "/icons/truck-delivery.svg"
+    },
+    {
+        title: "Retira tu compra",
+        description: "No disponible por el momento",
+        src: "/icons/location-off.svg"
+    },
+    {
+        title: "Devoluciones",
+        description: "Devoluciones en un plazo de 30 días",
+        src: "/icons/truck-return.svg"
+    }
 ]

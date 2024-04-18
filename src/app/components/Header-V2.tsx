@@ -13,7 +13,7 @@ export default function HeaderV2() {
                     <li>Reseñas</li>
                 </ul>
             </section>
-            <ButtonShop />
+            <ButtonShop title="Agregar al Carrito"/>
         </nav>
     )
 }
