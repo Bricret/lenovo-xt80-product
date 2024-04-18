@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function SectionImageProduct() {
     return (
         <section>
-        <ul className='flex flex-col gap-1'>
+        <ul className='flex flex-col gap-y-1 justify-end items-end pr-4'>
         {
             ImagesPresentation.map(( image ) => (
                 <li key={ image.alt }>

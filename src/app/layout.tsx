@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={onest.className}>{children}</body>
+      <body className={`${onest.className} bg-[#f7f7f7]`} >{children}</body>
     </html>
   );
 }
