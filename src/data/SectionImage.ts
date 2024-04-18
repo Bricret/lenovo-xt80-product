@@ -1,30 +1,37 @@
-import { InformationAboutProductProps } from "@/interfaces/ImagesProps";
-import { ImageProps } from "next/image";
+import { ImageSectionProps, InformationAboutProductProps } from "@/interfaces/ImagesProps";
 
-export const ImagesPresentation: ImageProps[] = [
+const price = 89.690
+
+export const ImagesPresentation: ImageSectionProps[] = [
     {
         src: '/ProductMainImage/image1.webp',
-        alt: 'Ilustration of product 1'
+        alt: 'Lenovo Xt80 Bluetooth 5.3',
+        price
     },
     {
         src: '/ProductMainImage/image2.webp',
-        alt: 'Ilustration of product 2'
+        alt: 'Lenovo Xt80 High Quality Sound',
+        price
     },
     {
         src: '/ProductMainImage/image3.webp',
-        alt: 'Ilustration of product 3'
+        alt: 'Lenovo Xt80 Best Sound Quality',
+        price
     },
     {
         src: '/ProductMainImage/image4.webp',
-        alt: 'Ilustration of product 4'
+        alt: 'Lenovo Xt80 Amazing Sound Quality',
+        price
     },
     {
         src: '/ProductMainImage/image5.webp',
-        alt: 'Ilustration of product 5'
+        alt: 'Lenovo Xt80 More Sound Quality',
+        price
     },
     {
         src: '/ProductMainImage/image6.webp',
-        alt: 'Ilustration of product 6'
+        alt: 'Lenovo Xt80 cool sound quality',
+        price
     },
 ]
 

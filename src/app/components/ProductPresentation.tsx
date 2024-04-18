@@ -7,13 +7,14 @@ import './style.css'
 import InformationAboutProductMain from '@/components/UI/InformationAboutProduct'
 import PrincipalImageProduct from '@/components/UI/PrincipalImageProduct'
 import SectionImageProduct from '@/components/UI/Section-Image-Product'
+import { ImageSectionProps } from '@/interfaces/ImagesProps'
 
 export default function ProductPresentation() {
 
-    const [image, setImage] = useState('' as string | StaticImport)
+    const [image, setImage] = useState({} as ImageSectionProps)
 
-    const CaptureSrcImage = ( src: string | StaticImport ) => {
-        setImage( src )
+    const CaptureSrcImage = ( imageInfo: ImageSectionProps ) => {
+        setImage( imageInfo )
     }
 
     return (
