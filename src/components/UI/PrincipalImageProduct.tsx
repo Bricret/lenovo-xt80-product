@@ -6,7 +6,7 @@ export default function PrincipalImageProduct() {
     <section>
         <button>
             <Image 
-                src={'/ProductMainImage/image6.webp'}
+                src={'/ProductMainImage/image2.webp'}
                 alt='Main image of the product'
                 width={450}
                 height={450}
