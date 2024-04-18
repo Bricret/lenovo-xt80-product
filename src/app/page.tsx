@@ -1,10 +1,11 @@
-import Headers from './components/Headers';
-import ProductPresentation from './components/ProductPresentation';
+import Headers from './components/Header/Headers';
+import ProductPresentation from './components/About-Product/ProductPresentation';
 
 export default function Home() {
   return (
     <>
       <Headers />
+      <ProductPresentation />
       <ProductPresentation />
     </>
   );

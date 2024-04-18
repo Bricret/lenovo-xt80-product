@@ -2,9 +2,7 @@
 
 import { ImagesPresentation } from "@/data/SectionImage";
 import { ImageSectionProps } from "@/interfaces/ImagesProps";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
-import { useState } from "react";
 
 export default function SectionImageProduct({ CaptureSrcImage }: { CaptureSrcImage: ( imageInfo: ImageSectionProps ) => void }){
     return (

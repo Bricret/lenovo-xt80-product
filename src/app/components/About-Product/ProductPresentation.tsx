@@ -1,8 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { StaticImport } from 'next/dist/shared/lib/get-img-props'
-import './style.css'
+import '../styleModal.css'
 
 import InformationAboutProductMain from '@/components/UI/InformationAboutProduct'
 import PrincipalImageProduct from '@/components/UI/PrincipalImageProduct'

@@ -1,0 +1,35 @@
+.parent {
+    display: grid;
+    grid-template-columns: 200px 1fr 430px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.divModal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-magnifer-container {
+
+    position: relative;
+
+}
+
+.magnifer-img {
+    width: auto;
+    height: 80vh;
+
+}
+
+.magnifer-image {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #fff;
+}

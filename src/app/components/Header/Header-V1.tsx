@@ -1,7 +1,7 @@
-import { NavbarSection } from "@/components/navbar-section";
+import { NavbarSection } from "@/components/UI/header/navbar-section";
 import Image from "next/image";
 
-export default function Header() {
+export default function HeaderV1() {
     return (
         <nav className='container flex justify-between items-center'>
             <picture>

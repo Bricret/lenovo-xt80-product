@@ -8,7 +8,7 @@ export default function InformationAboutProductMain() {
         <section className='px-4 w-10/12'>
             <div>
                 <span className='font-semibold text-sm text-green-600'>¡Envio Gratuito!</span>
-                <h1 className='font-bold text-3xl'>Lenovo Xt80 Bluetooth 5.3</h1>
+                <h1 className='font-bold text-2xl'>Lenovo Xt80 Bluetooth 5.3</h1>
                 <h3 className='font-light text-base'>Audífonos Deportivos Inalámbricos</h3>
             </div>
             <div className='py-6'>

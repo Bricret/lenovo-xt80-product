@@ -3,6 +3,7 @@
 import { ImageSectionProps } from "@/interfaces/ImagesProps";
 import Image from "next/image";
 import { DirectionAwayHover } from "./DirectionHover";
+import DialogProduct from "@/app/components/About-Product/DialogProduct";
 
 
 export default function PrincipalImageProduct({ SrcImage }: { SrcImage: ImageSectionProps }) {
@@ -13,12 +14,7 @@ export default function PrincipalImageProduct({ SrcImage }: { SrcImage: ImageSec
 
     return (
     <section>
-        <button 
-            className="z-0 flex items-center justify-center w-full p-2"
-            onClick={ () => onClickImage(SrcImage.src) }
-        >
-            <DirectionAwayHover SectionImageProduct={SrcImage} />
-        </button>
+        <DialogProduct onClickImage={onClickImage} SrcImage={SrcImage} />
         <h6 className='text-sm text-zinc-700  pt-3 flex gap-x-2 cursor-default items-center justify-center'>
             Presiona la imagen para expandirla
             <Image
@@ -26,7 +22,7 @@ export default function PrincipalImageProduct({ SrcImage }: { SrcImage: ImageSec
                 alt='Icon to expand the image'
                 width={20}
                 height={20}
-                className='w-5 h-5 text-zinc-700'
+                className='w-5 h-5 text-zinc-700 cursor-zoom-in'
             />
         </h6>
     </section>
