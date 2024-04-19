@@ -35,10 +35,11 @@ export default function Information() {
                 }}
             >
                 <Image 
-                    src={'/ProductMainImage/Lenovo-XT80.webp'}
+                    src={'/ProductMainImage/aboutproduct2.jpg'}
                     alt="Lenovo XT80"
-                    width={400}
-                    height={400}
+                    width={600}
+                    height={600}
+                    className="rounded-lg"
                 />
             </motion.div>
         </div>
