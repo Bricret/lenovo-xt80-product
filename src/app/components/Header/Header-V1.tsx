@@ -10,7 +10,7 @@ export default function HeaderV1() {
                 src={'/Logo.png'}
                 width={200}
                 height={100} 
-                className='w-52'
+                className='w-40 md:w-52'
                 priority
             />
             </picture>

@@ -133,7 +133,7 @@ export const EspecificationsAboutProduct: EspecificationsAboutProductProps[] = [
         ]
     },
     {
-        title: "Conectividad",
+        title: "Conexión",
         description: [
             {
                 title: "Bluetooth",
