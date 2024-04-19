@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.637" height="53.793" viewBox="0 0 34.637 53.793" style="display: inline;">
+  <g id="battery" transform="translate(0 1)">
+    <g id="Group_2987" data-name="Group 2987">
+      <path id="Rectangle_1315" data-name="Rectangle 1315" d="M7,3A4,4,0,0,0,3,7V43.682a4,4,0,0,0,4,4H27.636a4,4,0,0,0,4-4V7a4,4,0,0,0-4-4H7M7,0H27.636a7,7,0,0,1,7,7V43.682a7,7,0,0,1-7,7H7a7,7,0,0,1-7-7V7A7,7,0,0,1,7,0Z" transform="translate(0 2.11)"></path>
+      <rect id="Rectangle_1316" data-name="Rectangle 1316" width="13.219" height="5.649" rx="2" transform="translate(10.709 -1)"></rect>
+    </g>
+    <g id="Group_2986" data-name="Group 2986" transform="translate(8.709 11.062)">
+      <path id="Line_7" data-name="Line 7" d="M17.219,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.219a1,1,0,0,1,1,1A1,1,0,0,1,17.219,1Z"></path>
+      <path id="Line_8" data-name="Line 8" d="M17.219,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.219a1,1,0,0,1,1,1A1,1,0,0,1,17.219,1Z" transform="translate(0 6.843)"></path>
+      <path id="Line_9" data-name="Line 9" d="M17.219,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.219a1,1,0,0,1,1,1A1,1,0,0,1,17.219,1Z" transform="translate(0 13.685)"></path>
+      <path id="Line_10" data-name="Line 10" d="M17.219,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.219a1,1,0,0,1,1,1A1,1,0,0,1,17.219,1Z" transform="translate(0 20.528)"></path>
+      <path id="Line_11" data-name="Line 11" d="M17.219,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.219a1,1,0,0,1,1,1A1,1,0,0,1,17.219,1Z" transform="translate(0 26.654)"></path>
+      <path id="Line_12" data-name="Line 12" d="M17.219,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H17.219a1,1,0,0,1,1,1A1,1,0,0,1,17.219,1Z" transform="translate(0 32.78)"></path>
+    </g>
+  </g>
+</svg>

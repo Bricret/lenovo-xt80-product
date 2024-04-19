@@ -12,6 +12,9 @@ const config: Config = {
       padding: '1rem', // Ajusta este valor según tus necesidades
     },
     extend: {
+      gridTemplateColumns: {
+        'custom': '25% 75%',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

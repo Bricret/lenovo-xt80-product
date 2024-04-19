@@ -1,4 +1,3 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
 export interface ImageSectionProps {
     src: string;
@@ -14,7 +13,22 @@ export interface InformationAboutProductProps {
 
 
 export interface SectionImageProductProps {
-    src: string | StaticImport;
+    src: string;
     alt: string;
     price: number;
+}
+
+export interface FeatureProductProps {
+    src: string;
+    title: string;
+}
+
+export interface EspecificationsAboutProductProps {
+    title: string;
+    description: DescriptionProps[];
+}
+
+interface DescriptionProps {
+    title: string;
+    description: string;
 }
