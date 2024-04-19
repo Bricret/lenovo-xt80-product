@@ -13,8 +13,8 @@ const config: Config = {
     },
     extend: {
       gridTemplateColumns: {
-        'custom': '25% 75%',
-        'custom-2': '20% 40% 40%',
+        'custom': '35% 65%',
+        'custom-2': '20% 45% 35%',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

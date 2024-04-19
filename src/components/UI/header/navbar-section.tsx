@@ -6,7 +6,7 @@ import { cn } from "@/utils/cn";
 export function NavbarSection() {
   return (
     <div className="">
-      <Navbar className="top-0 gap-6 " />
+      <Navbar className="-top-2 gap-2 " />
     </div>
   );
 }

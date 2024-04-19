@@ -8,14 +8,15 @@ import DialogProduct from "@/app/components/About-Product/DialogProduct";
 
 export default function PrincipalImageProduct({ SrcImage }: { SrcImage: ImageSectionProps }) {
 
-    const onClickImage = ( src: string = '/ProductMainImage/image1.webp' ) => {
-        console.log('Image clicked', src)
-    }
-
     return (
     <section>
-        <DialogProduct onClickImage={onClickImage} SrcImage={SrcImage} />
-        <h6 className='text-sm text-zinc-700  pt-3 flex gap-x-2 cursor-default items-center justify-center'>
+        <DialogProduct SrcImage={SrcImage} />
+        <button 
+            className="z-0 flex items-center justify-center w-full p-2 md:hidden"
+        >
+            <DirectionAwayHover SectionImageProduct={SrcImage} />
+        </button>
+        <h6 className='text-sm text-zinc-7009  md:flex  pt-3 hidden  gap-x-2 cursor-default items-center justify-center'>
             Presiona la imagen para expandirla
             <Image
                 src={'/icons/expanded.svg'}

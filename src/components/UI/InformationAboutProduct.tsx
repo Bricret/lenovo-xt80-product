@@ -1,16 +1,13 @@
 import Image from "next/image";
 import ButtonShop from "./Button-Shop";
 import { InformationAboutProduct } from "@/data/SectionImage";
+import TextInformation from "./header/TextInformation";
 
 export default function InformationAboutProductMain() {
 
     return (
-        <section className='px-4 w-10/12'>
-            <div>
-                <span className='font-semibold text-sm text-green-600'>¡Envio Gratuito!</span>
-                <h1 className='font-bold text-2xl'>Lenovo Xt80 Bluetooth 5.3</h1>
-                <h3 className='font-light text-base'>Audífonos Deportivos Inalámbricos</h3>
-            </div>
+        <section className='px-4 w-full md:w-10/12'>
+            <TextInformation type={1} />
             <div className='py-6'>
                 <h4 className='font-semibold text-base'>$ 89.690</h4>
             </div>

@@ -27,7 +27,7 @@ export default function Headers() {
     return (
         <>
         <motion.header
-          className={`transition-all duration-500 ${isScrolled ? 'hidden' : 'block'} p-4 shadow-lg sticky top-0 bg-white z-30`}
+          className={`transition-all duration-500 ${isScrolled ? 'hidden' : 'block'} p-3 shadow-lg sticky top-0 bg-white z-30`}
           initial={{ opacity: 1 }}
           animate={{ opacity: isScrolled ? 0 : 1 }}
         >

@@ -64,7 +64,7 @@ export const FeaturesProduct: FeatureProductProps[] = [
     },
     {
         src: "/icons/mobiles.svg",
-        title: "Compatible con todos los dispositivos móviles"
+        title: "Compatible con todos los dispositivos"
     },
     {
         src: "/icons/sound.svg",
@@ -150,7 +150,7 @@ export const EspecificationsAboutProduct: EspecificationsAboutProductProps[] = [
         ]
     },
     {
-        title: "Especificaciones fisicas",
+        title: "Datos fisicos",
         description: [
             {
                 title: "Peso",

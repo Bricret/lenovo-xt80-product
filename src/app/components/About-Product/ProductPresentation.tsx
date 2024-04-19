@@ -17,7 +17,7 @@ export default function ProductPresentation() {
     }
 
     return (
-        <main className="grid grid-cols-custom-2 container pt-10">
+        <main className="grid grid-row-1 md:grid-cols-custom-2 container pt-10">
 
             <SectionImageProduct CaptureSrcImage={CaptureSrcImage} />
 

@@ -10,11 +10,11 @@ export default function HeaderV1() {
                 src={'/Logo.png'}
                 width={200}
                 height={100} 
-                className='w-52 md:w-auto'
+                className='w-52'
                 priority
             />
             </picture>
-            <section className="hidden md:block">
+            <section className="hidden md:block relative w-auto">
                 <NavbarSection />
             </section>
             <section className='flex gap-6'>

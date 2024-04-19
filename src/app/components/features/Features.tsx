@@ -15,10 +15,10 @@ export default function Features() {
     return (
         <section className='feature pt-16 container'>
         <h1 
-          className='font-extrabold text-2xl text-pretty tracking-widest text-center container w-4/5'>
+          className='font-extrabold text-xl md:text-2xl text-pretty tracking-widest text-ellipsis md:text-center container w-full md:w-4/5'>
             Lenovo Xt80 - Unos auténticos auriculares inalámbricos con sonido de alta fidelidad que se mantienen cómodamente en su sitio.
           </h1>
-        <div className='pt-6 grid grid-cols-4 gap-4 items-center justify-center'>
+        <div className='pt-6 grid grid-cols-2 md:grid-cols-4 gap-4 items-center justify-center'>
         {
             FeaturesProduct.map(( feature ) => (
                 <div className='grid grid-rows-2 grid-flow-col gap-3' key={feature.title}>
@@ -42,9 +42,9 @@ export default function Features() {
             <div className={`grid grid-rows-4 grid-flow-col gap-4 w-full pb-6 ${ click ? '' : 'hidden' }`}>
             {
                 EspecificationsAboutProduct.map(( { title, description } ) => (
-                    <div className="grid grid-cols-custom gap-4 border-b py-10" key={ title }>
-                    <h1 className="font-bold text-2xl">{ title }</h1>
-                    <ul className="grid grid-rows-2 grid-flow-col flex-col gap-y-10 gap-x-12">
+                    <div className="grid grid-cols-custom gap-2 md:gap-4 border-b py-6 md:py-10" key={ title }>
+                    <h1 className="font-bold text-xl w-auto">{ title }</h1>
+                    <ul className="grid grid-rows-4 md:grid-rows-2 grid-flow-col flex-col gap-y-2 gap-x-6 md:gap-y-10 md:gap-x-12">
                     {
                         description.map(( { title, description } ) => (
                             <li key={ title }>
