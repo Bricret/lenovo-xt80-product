@@ -13,7 +13,7 @@ export default function Features() {
     const handleClick = () => setClick(!click)
 
     return (
-        <section className='feature pt-16 container'>
+        <section className='pt-16 container' id="feature">
         <h1 
           className='font-extrabold text-xl md:text-2xl text-pretty tracking-widest text-ellipsis md:text-center container w-full md:w-4/5'>
             Lenovo Xt80 - Unos auténticos auriculares inalámbricos con sonido de alta fidelidad que se mantienen cómodamente en su sitio.

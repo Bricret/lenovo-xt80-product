@@ -17,9 +17,7 @@ const config: Config = {
         'custom-2': '20% 45% 35%',
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "parallax": 'url("/ProductMainImage/parallax.webp")',
       },
         "animation": {
           shimmer: "shimmer 2s linear infinite"
