@@ -5,9 +5,26 @@
 @media (prefers-reduced-motion: reduce) {
     body {
         scroll-behavior: auto;
+        scrollbar-width: thin;          /* "auto" o "thin" */
+        scrollbar-color: blue orange;  
     }
 }
 
 html {
     scroll-behavior: smooth;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;               /* Ancho de la barra de scroll */
+   }
+   
+   body::-webkit-scrollbar-track {
+    background: #cecece;        /* Color del área de seguimiento */
+   }
+   
+   body::-webkit-scrollbar-thumb {
+    background-color: gray;    /* Color del thumb de la barra de scroll */
+    border-radius: 20px;       /* Redondez del thumb */
+    border: 3px solid #cecece; /* Crea un padding alrededor del thumb */
+   }
+   

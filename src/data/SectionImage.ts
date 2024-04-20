@@ -1,4 +1,4 @@
-import { EspecificationsAboutProductProps, FeatureProductProps, ImageSectionProps, InformationAboutProductProps, InformationProduct } from "@/interfaces/ImagesProps";
+import { EspecificationsAboutProductProps, FeatureProductProps, FooterSectionProps, ImageSectionProps, InformationAboutProductProps, InformationProduct } from "@/interfaces/ImagesProps";
 
 const price = 89.690
 
@@ -175,5 +175,47 @@ export const informationProduct: InformationProduct[] = [
         description: 'Está equipado con puntas de ala cómodas y de ajuste seguro que se flexionan para adaptarse a su oreja. El diseño universal de punta de ala fue puesto a prueba por atletas de todo tipo, por lo que puedes confiar en que estos auriculares se mantendrán en su sitio durante los días de trabajo y entrenamiento.',
         src: '/ProductMainImage/Lenovo-XT80.webp',
         dmn: 400
+    }
+]
+
+export const footerSections: FooterSectionProps[] = [
+    {
+        title: "Te ayudamos",
+        description: [
+            'Venta telefónica',
+            'Centro de ayuda',
+            'Devoluciones y cambios',
+            'Información legal'
+        ]
+    },
+    {
+        title: 'Sé parte de falabella.com',
+        description: [
+            'Vende en falabella.com',
+            'Nuestros inversionistas',
+            'Trabaja en grupo Falabella',
+            'Venta Empresa',
+            'Proveedores'
+        ]
+    },
+    {
+        title: 'Más sobre nosotros',
+        description: [
+            'Nuestra empresa',
+            'Sala de prensa',
+            'Sostenibilidad',
+            'Servicios corporativos',
+            'Inversionistas'
+        ]
+    },
+    {
+        title: 'Ayuda',
+        description: [
+            'Medios de pago',
+            'Tarjeta CMR',
+            'Tarjeta de crédito',
+            'Tarjeta débito',
+            'Tarjeta CMR puntos'
+        ]
     }
 ]

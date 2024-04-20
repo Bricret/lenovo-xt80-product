@@ -39,3 +39,8 @@ export interface InformationProduct {
     src: string;
     dmn?: number;
 }
+
+export interface FooterSectionProps {
+    title: string;
+    description: string[];
+}
