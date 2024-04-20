@@ -1,4 +1,4 @@
-import { EspecificationsAboutProductProps, FeatureProductProps, ImageSectionProps, InformationAboutProductProps } from "@/interfaces/ImagesProps";
+import { EspecificationsAboutProductProps, FeatureProductProps, ImageSectionProps, InformationAboutProductProps, InformationProduct } from "@/interfaces/ImagesProps";
 
 const price = 89.690
 
@@ -165,5 +165,15 @@ export const EspecificationsAboutProduct: EspecificationsAboutProductProps[] = [
                 description: "Negro"
             }
         ]
+    }
+]
+
+
+export const informationProduct: InformationProduct[] = [
+    {
+        title: 'Diseñado para la comodidad',
+        description: 'Está equipado con puntas de ala cómodas y de ajuste seguro que se flexionan para adaptarse a su oreja. El diseño universal de punta de ala fue puesto a prueba por atletas de todo tipo, por lo que puedes confiar en que estos auriculares se mantendrán en su sitio durante los días de trabajo y entrenamiento.',
+        src: '/ProductMainImage/Lenovo-XT80.webp',
+        dmn: 400
     }
 ]

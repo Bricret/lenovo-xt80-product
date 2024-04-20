@@ -32,3 +32,10 @@ interface DescriptionProps {
     title: string;
     description: string;
 }
+
+export interface InformationProduct {
+    title: string;
+    description: string;
+    src: string;
+    dmn?: number;
+}
