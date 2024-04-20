@@ -40,7 +40,7 @@ export default function InformationV2() {
                     alt="Lenovo XT80"
                     width={500}
                     height={400}
-                    className="rounded-lg object-cover w-full h-full md:h-60"
+                    className="rounded-lg object-cover w-full h-full md:h-80"
                 />
             </motion.div>
         </div>
