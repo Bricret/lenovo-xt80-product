@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-white">
         <FooterSvg  />
-        <div className="container grid grid-cols-4 gap-x-28 mt-16">
+        <div className="container grid grid-cols-2 md:grid-cols-4 gap-x-5 gap-y-7 md:gap-x-28 mt-16">
         {
         footerSections.map(( section ) => (
             <div key={section.title} className="col-span-1">
